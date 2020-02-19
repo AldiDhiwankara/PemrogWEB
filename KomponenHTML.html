@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Komponen HTML Lanjut</title>
+</head>
+<body>
+	<!-- Menu Utama -->
+	<h2 id="Menu Utama"><font color="red">Menu Utama</font></h2>
+		<li><a href="#Demo Link">Demo Link</a></li>
+		<li><a href="#Demo Atribut Link">Demo Atribut Link</a></li>
+		<li><a href="#Demo Link Internal">Demo Link Internal</a></li>
+		<li><a href="#Demo Link Email">Demo Link Email</a></li>
+		<li><a href="#Demo Link Gambar">Demo Link Gambar</a></li>
+		<li><a href="#Demo Tabel">Demo Tabel</a></li>
+		<li><a href="#Template Design Form">Template Design Form</a></li>
+		<li><a href="#Tugas Praktikum">Tugas Praktikum</a></li>
+
+	<!-- Demo Link -->
+	<h2 id="Demo Link"><font color="red">Demo Link</font></h2>
+		<a href="#Menu Utama">kembali ke Menu Utama</a>
+		<h4>kalau mau ke halaman latian 1.1 <a href="latihan1.1.html">klik disini gan</a></h4>
+	
+	<!-- Demo Atribut Link -->
+	<h2 id="Demo Atribut Link"><font color="red">Demo Atribut Link</font></h2>
+		<a href="#Menu Utama">kembali ke Menu Utama</a>
+		<h4>kalau mau ke halaman latian 1.1 <a href="latihan1.1.html" target="_blank" title="Title Link">klik disini gan</a></h4>
+	
+	<!-- Demo Link Internal -->
+	<h2 id="Demo Link Internal"><font color="red">Demo Link Internal</font></h2>
+		<a href="#Menu Utama">kembali ke Menu Utama</a>
+		<ul>
+			<li><a href="#Pendahuluan">Pendahuluan</a></li>
+			<li><a href="#Pembahasan">Pembahasan</a></li>
+			<li><a href="#Kesimpulan">Kesimpulan</a></li>
+		</ul>
+		<h3 id="Pendahuluan">Pendahuluan</h3>
+		<a href="#Demo Link Internal">kembali ke Demo Link Internal</a>
+		<p>=====ini adalah pendahuluan=====<br>
+		lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<h3 id="Pembahasan">Pembahasan</h3>
+		<a href="#Demo Link Internal">kembali ke Demo Link Internal</a>
+		<P>=====ini adalah pembahasan=====<br>
+		lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</P>
+		<h3 id="Kesimpulan">Kesimpulan</h3>
+		<a href="#Demo Link Internal">kembali ke Demo Link Internal</a>
+		<P>=====ini adalah kesimpulan=====<br>
+		lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</P>
+	
+	<!-- Demo Link Email -->
+	<h2 id="Demo Link Email"><font color="red">Demo Link Email</font></h2>
+		<a href="#Menu Utama">kembali ke Menu Utama</a><br>
+		<a href="mailto:madealdi.2019@student.uny.ac.id">Link untuk mengirim pesan ke email saya</a>
+	
+	<!-- Demo Link Gambar -->
+	<h2 id="Demo Link Gambar"><font color="red">Demo Link Gambar</font></h2>
+		<a href="#Menu Utama">kembali ke Menu Utama</a>
+		<h3>klik gambar untuk masuk ke halaman resmi google</h3>
+		<a href="https://www.google.com" target="blank" title="google search"><img src="google.JFIF"></a>
+	
+	<!-- Demo Tabel -->
+	<h2 id="Demo Tabel"><font color="red">Demo Tabel</font></h2>
+		<a href="#Menu Utama">kembali ke Menu Utama</a>
+		<!-- penggunaan demo spasi tabel -->
+		<table border="1" cellspacing="0" cellpadding="10">
+		<caption>Label dari tabel</caption>
+			<!-- <th></th> Header -->
+			<tr>
+				<!-- Mengatur lebar kolom -->
+				<th width="50">No</th>
+				<th width="150">Nama</th>
+				<th width="200">Alamat</th>
+			</tr>
+			<!-- <td></td> Isi -->
+			<tr>
+				<td>1</td>
+				<td>Aldhy</td>
+				<td>Sulawesi Tengah</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Alam</td>
+				<td>Jogjakarta</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Safa</td>
+				<td>Jakarta</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Putri</td>
+				<td>Lampung</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Mufida</td>
+				<td>Gorontalo</td>
+			</tr>
+		</table> <br>
+		<table border="1" cellspacing="0" cellpadding="10">
+		<caption>Menggunakan Span</caption>
+			<!-- Design Tabel -->
+			<tr>
+				<th width="50">No</th>
+				<!-- Gabung Kolom Nama dan Alamat -->
+				<th width="350" colspan="2">Span Nama dan Alamat</th>
+			</tr>
+			<tr>
+				<!-- Gabung Baris 1 dan 2 -->
+				<td rowspan="2">Span Baris 1 dan 2</td>
+				<td>Aldhy</td>
+				<td>Sulawesi Tengah</td>
+			</tr>
+			<tr>
+				<td>Alam</td>
+				<td>Jogjakarta</td>
+			</tr>
+		</table>
+	
+	<!-- Demo Form -->
+	<h2 id="Template Design Form"><font color="red">Template Design Form</font></h2>
+		<a href="#Menu Utama">kembali ke Menu Utama</a>
+		<h3>Formulir Pendaftaran</h3>
+		<form action="" method="post">
+			<table border="0">
+				<tr>
+					<td>NIK</td>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<td>Nama</td>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin</td>
+					<td>
+						<input type="radio" />Pria
+						<input type="radio" />Wanita
+					</td>
+				</tr>
+				<tr>
+					<td>Pekerjaan</td>
+					<td>
+						<select name="job">
+							<option>Guru</option>
+							<option>Wiraswasta</option>
+							<option>Lainnya</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" value="ok" />
+						<input type="submit" value="cancel" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	
+	<!-- Tugas Praktikum -->
+	<h1 id="Tugas Praktikum"><font color="red">Tugas Praktikum</font></h1>
+		<a href="#Menu Utama">kembali ke Menu Utama</a>
+		<table border="1" cellspacing="0" cellpadding="10">
+		<caption><b>PERBANDINGAN FITUR</b></caption>
+			<tr>
+				<th>No</th>
+				<th width="200">Fitur</th>
+				<th width="150">Enterprise</th>
+				<th width="100" colspan="2">
+					<pre>&nbsp Pro &nbsp Free&nbsp</pre>
+				</th>
+			</tr>
+			<tr>
+				<td>
+					1<br>2<br>3<br>4<br>5<br>
+				</td>
+				<td>
+					Garansi seumur hidup<br>
+					Mubuser<br>
+					Update otomatis<br>
+					Cetak laporan<br>
+					Notifikasi error
+				</td>
+				<td align="center">
+					X<br>X<br>X<br>X<br>X
+				</td>
+				<td>
+					- &nbsp &nbsp &nbsp - <br>
+					- &nbsp &nbsp &nbsp - <br>
+					X &nbsp &nbsp &nbsp - <br>
+					X &nbsp &nbsp &nbsp - <br>
+					X &nbsp &nbsp &nbsp X <br>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					6<br>7
+				</td>
+				<td>
+					Ubah tema<br>Try ikon
+				</td>
+				<td align="center">
+					X<br>X
+				</td>
+				<td>
+					X &nbsp &nbsp &nbsp X <br>
+					X &nbsp &nbsp &nbsp X
+				</td>
+			</tr>
+		</table>
+</body>
+</html>
